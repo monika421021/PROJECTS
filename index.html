@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GYM fitness</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Baloo Bhai">
+    <style>
+        /* css reset */
+        body {
+            font-family: 'Baloo Bhai';
+            color: white;
+            padding: 0px;
+            margin: 0px;
+            background-image: url(https://i0.wp.com/tupkiakukkur.com/wp-content/uploads/2021/09/chest-training.jpg?fit=1920%2C1275&ssl=1);
+        }
+
+        .left {
+            display: inline block;
+            /* border: 2px solid red; */
+            position: absolute;
+            left: 34px;
+            top: 10px;
+        }
+
+        .left div {
+            text-align: center;
+            /* text-align: left; */
+            line-height: 1px;
+            font-size: 152%;
+        }
+
+        .left img {
+            /* width: 80px; */
+            /* margin: 50%; */
+            /* padding: 50%; */
+            /* height: auto; */
+            width: 75px;
+            display: block;
+            /* margin: 50%; */
+            /* padding: 50%; */
+            margin-right: auto;
+            margin-left: auto;
+            /* height: auto;*/
+        }
+
+        .mid {
+            display: block;
+            width: 40%;
+            margin: 29px auto;
+            /* border: 2px solid green; */
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 43px;
+            display: inline block;
+            /* border: 2px solid yellow; */
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 19px;
+        }
+
+        .navbar li a {
+            color: white;
+            text-decoration: none;
+            padding: 54px 23px;
+        }
+
+        .navbar li a:hover,
+        .navbar li a.active {
+            text-decoration: underline;
+            color: gray;
+        }
+
+        .btn {
+            font-family: 'Baloo Bhai';
+
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 4px 14px;
+            border: 2px solid gray;
+            border-radius: 14px;
+            font-size: 12px;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: rgb(19, 18, 18);
+        }
+
+        .container {
+            /* border: 2px solid white;
+            margin: 106px 80px;
+            padding: 74px;
+            width: 33%; */
+            /* border-radius: 22px; */
+            border: 2px solid white;
+    margin: 119px 443px;
+    padding: 49px;
+    width: 34%;
+    border-radius: 22px;
+        }
+
+        .form-group input {
+            font-family: 'Baloo Bhai';
+
+            text-align: center;
+            display: block;
+            width: 386px;
+            padding: 1px;
+            border: 2px solid black;
+            margin: 10px auto;
+            font-size: 20px;
+            border-radius: 8px;
+        }
+
+        .container h1 {
+            text-align: center;
+            font-size: 33px;
+        }
+
+        .container button {
+            display: block;
+            width: 74%;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="dumbbell-the-white-color-icon-vector-14928770-removebg-preview.png" alt="">
+            <div>GYM Fitness </div>
+        </div>
+        <!-- mid box for navbar -->
+        <div class="mid">
+            <ul class="navbar">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness center</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </div>
+        <!-- right box for button -->
+        <div class="right">
+            <button class="btn">Call us now</button>
+            <button class="btn">Email us</button>
+        </div>
+    </header>
+    <div class="container">
+        <h1>
+            join the best gym of delhi now
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form-group">
+                <input type="g" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your gender">
+            </div>
+            <!-- <div class="form-group">
+                <input type="text" name="" placeholder="Enter your locality">
+            </div> -->
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your phone number">
+            </div>
+            <div class="form-group">
+                <input type="text" name="" placeholder="Enter your Email ID">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+
+    </div>
+</body>
+
+</html>
